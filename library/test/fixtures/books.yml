@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  author: MyString
+  category: MyString
+  version: 9.99
+  publishedDate: 2016-02-02
+  typeofBook: MyString
+  quantity: 1
+
+two:
+  name: MyString
+  author: MyString
+  category: MyString
+  version: 9.99
+  publishedDate: 2016-02-02
+  typeofBook: MyString
+  quantity: 1

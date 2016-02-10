@@ -1,0 +1,18 @@
+<h1> Lists </h1>
+
+<table>
+	<tr>
+		<th> Library Name </th>
+		
+	</tr>
+
+	<%#= current_user.inspect %>
+	<%#y = test_method %>
+	<%#=y %>
+	<% @libs.each do |lib| %>
+	<tr>
+		<td> <%= lib.name %> </td>
+		<td> <%= link_to 'Show', lib_path(lib) %></td>
+	</tr>
+	</table>
+	<% end % >

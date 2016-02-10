@@ -1,0 +1,16 @@
+<h1>Listing Books</h1>
+ <%= link_to 'New Books', new_lib_book_path %>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+  </tr>
+ 
+  <% @books.each do |book| %>
+    <tr>
+      <td><%= book.name %></td>
+      <td><%= book.author %></td>
+    </tr>
+  <% end %>
+  <%= link_to 'Back', libs_path %>
+</table>
