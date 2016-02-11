@@ -1,9 +1,9 @@
 
-a = 25
-b = 30
+a = 40
+b = 100
 
-def hello
-puts "Hello all"
-end 
+def hello 
+  puts "Hey hello"
+end
 
 
