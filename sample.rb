@@ -1,9 +1,9 @@
 
 a = 40
-b = 50
+b = 200
 
 def hello 
-  puts "Hey hello"
+  puts "Hello all"
 end
 
 
